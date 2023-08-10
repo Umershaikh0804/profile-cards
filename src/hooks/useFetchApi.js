@@ -11,7 +11,7 @@ const useFetchApi = (api) =>{
       setData(data);
     }
     fetchData();
-  }, [api]);
+  }, []);
     console.log(data);
 
     return[data];
